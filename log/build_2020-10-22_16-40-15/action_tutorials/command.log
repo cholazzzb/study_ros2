@@ -1,0 +1,2 @@
+Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials

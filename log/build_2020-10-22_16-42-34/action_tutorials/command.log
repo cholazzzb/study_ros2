@@ -1,0 +1,4 @@
+Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials -- -j8 -l8
+Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials -- -j8 -l8
+Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials --target install -- -j8 -l8
+Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials --target install -- -j8 -l8

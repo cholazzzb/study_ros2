@@ -1,0 +1,50 @@
+[0.034s] Invoking command in '/home/toro/tester_ws/build/action_tutorials': /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[1.150s] -- The C compiler identification is GNU 7.5.0
+[2.193s] -- The CXX compiler identification is GNU 7.5.0
+[2.212s] -- Check for working C compiler: /usr/bin/cc
+[2.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.368s] -- Detecting C compiler ABI info
+[2.439s] -- Detecting C compiler ABI info - done
+[2.444s] -- Detecting C compile features
+[2.672s] -- Detecting C compile features - done
+[2.675s] -- Check for working CXX compiler: /usr/bin/c++
+[2.759s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.760s] -- Detecting CXX compiler ABI info
+[2.841s] -- Detecting CXX compiler ABI info - done
+[2.846s] -- Detecting CXX compile features
+[3.198s] -- Detecting CXX compile features - done
+[3.231s] CMake Error at CMakeLists.txt:19 (find_package):
+[3.231s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.231s]   has asked CMake to find a package configuration file provided by
+[3.231s]   "ament_cmake", but CMake did not find one.
+[3.232s] 
+[3.232s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.232s]   any of the following names:
+[3.232s] 
+[3.232s]     ament_cmakeConfig.cmake
+[3.232s]     ament_cmake-config.cmake
+[3.232s] 
+[3.232s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.233s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.233s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.233s]   has been installed.
+[3.233s] 
+[3.234s] 
+[3.234s] -- Configuring incomplete, errors occurred!
+[3.234s] See also "/home/toro/tester_ws/build/action_tutorials/CMakeFiles/CMakeOutput.log".
+[3.235s] Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '1': /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[3.293s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/toro/tester_ws/build/action_tutorials', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

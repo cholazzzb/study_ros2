@@ -1,0 +1,6 @@
+{
+  "package_name": "action_tutorials",
+  "non_idl_tuples": [
+    "/home/toro/tester_ws/src/action_tutorials:action/Fibonacci.action"
+  ]
+}

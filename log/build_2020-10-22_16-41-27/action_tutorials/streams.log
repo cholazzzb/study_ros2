@@ -1,0 +1,184 @@
+[0.014s] Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[0.032s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.257s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[0.315s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.404s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.715s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.738s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[0.906s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.956s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[0.957s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[1.018s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[1.019s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.020s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.020s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.058s] -- Found PythonExtra: .so  
+[1.207s] -- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.363s] -- Added test 'lint_cmake' to check CMake code style
+[1.365s] -- Added test 'xmllint' to check XML markup files
+[1.372s] -- Configuring done
+[1.574s] -- Generating done
+[1.578s] -- Build files have been written to: /home/toro/tester_ws/build/action_tutorials
+[1.582s] Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[1.585s] Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials -- -j8 -l8
+[1.631s] [35m[1mScanning dependencies of target action_tutorials__cpp[0m
+[1.631s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.643s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.079s] [  6%] Built target action_tutorials__cpp
+[2.093s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.093s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.124s] [35m[1mScanning dependencies of target action_tutorials__rosidl_generator_c[0m
+[2.182s] [ 17%] [32mBuilding C object CMakeFiles/action_tutorials__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials/action/fibonacci__functions.c.o[0m
+[2.389s] [ 20%] [32m[1mLinking C shared library libaction_tutorials__rosidl_generator_c.so[0m
+[2.442s] [ 20%] Built target action_tutorials__rosidl_generator_c
+[2.455s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.593s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_cpp[0m
+[2.696s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_cpp[0m
+[2.696s] [ 27%] [32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials/action/fibonacci__type_support.cpp.o[0m
+[2.771s] [ 31%] [32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials/action/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[2.989s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_c[0m
+[3.017s] [ 34%] [32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials/action/fibonacci__type_support.c.o[0m
+[3.067s] [ 37%] [32m[1mLinking C shared library libaction_tutorials__rosidl_typesupport_introspection_c.so[0m
+[3.121s] [ 37%] Built target action_tutorials__rosidl_typesupport_introspection_c
+[3.145s] [ 41%] [32m[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_introspection_cpp.so[0m
+[3.237s] [ 41%] Built target action_tutorials__rosidl_typesupport_introspection_cpp
+[3.474s] [ 44%] [32m[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.861s] [ 44%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp
+[3.874s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.874s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.267s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_cpp[0m
+[4.304s] [ 55%] [32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials/action/fibonacci__type_support.cpp.o[0m
+[4.404s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c[0m
+[4.425s] [ 58%] [32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials/action/fibonacci__type_support_c.cpp.o[0m
+[4.727s] [ 62%] [32m[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_cpp.so[0m
+[4.788s] [ 65%] [32m[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_c.so[0m
+[4.841s] [ 65%] Built target action_tutorials__rosidl_typesupport_cpp
+[4.922s] [ 65%] Built target action_tutorials__rosidl_typesupport_fastrtps_c
+[4.936s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.240s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c[0m
+[5.257s] [ 72%] [32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials/action/fibonacci__type_support.cpp.o[0m
+[5.301s] [ 75%] [32m[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_c.so[0m
+[5.371s] [ 75%] Built target action_tutorials__rosidl_typesupport_c
+[5.382s] [35m[1mScanning dependencies of target action_tutorials[0m
+[5.394s] [ 75%] Built target action_tutorials
+[5.405s] [35m[1mScanning dependencies of target action_tutorials__py[0m
+[5.418s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.556s] [ 79%] Built target action_tutorials__py
+[6.569s] [35m[1mScanning dependencies of target action_tutorials__python[0m
+[6.701s] [ 82%] [32mBuilding C object CMakeFiles/action_tutorials__python.dir/rosidl_generator_py/action_tutorials/action/_fibonacci_s.c.o[0m
+[6.965s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/action_tutorials/libaction_tutorials__python.so[0m
+[7.045s] [ 86%] Built target action_tutorials__python
+[7.057s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.057s] [35m[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c__pyext[0m
+[7.139s] [ 89%] [32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_c.c.o[0m
+[7.140s] [ 93%] [32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.263s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[7.265s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[7.357s] [100%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[7.357s] [100%] Built target action_tutorials__rosidl_typesupport_c__pyext
+[7.370s] Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials -- -j8 -l8
+[7.440s] Invoking command in '/home/toro/tester_ws/build/action_tutorials': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials --target install -- -j8 -l8
+[7.506s] [  3%] Built target action_tutorials__cpp
+[7.507s] [ 13%] Built target action_tutorials__rosidl_generator_c
+[7.533s] [ 24%] Built target action_tutorials__rosidl_typesupport_introspection_cpp
+[7.539s] [ 34%] Built target action_tutorials__rosidl_typesupport_introspection_c
+[7.543s] [ 44%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp
+[7.572s] [ 55%] Built target action_tutorials__rosidl_typesupport_fastrtps_c
+[7.572s] [ 65%] Built target action_tutorials__rosidl_typesupport_cpp
+[7.603s] [ 75%] Built target action_tutorials__rosidl_typesupport_c
+[7.626s] [ 75%] Built target action_tutorials
+[7.649s] [ 79%] Built target action_tutorials__py
+[7.680s] [ 86%] Built target action_tutorials__python
+[7.710s] [100%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[7.710s] [100%] Built target action_tutorials__rosidl_typesupport_c__pyext
+[7.732s] [36mInstall the project...[0m
+[7.743s] -- Install configuration: ""
+[7.743s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/ament_index/resource_index/rosidl_interfaces/action_tutorials
+[7.743s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so
+[7.743s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so" to ""
+[7.743s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/library_path.sh
+[7.744s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/library_path.dsv
+[7.744s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so
+[7.744s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so" to ""
+[7.744s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.745s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.745s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_fastrtps_c.h
+[7.745s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg
+[7.745s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.745s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so
+[7.745s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so" to ""
+[7.746s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.746s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.746s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__functions.h
+[7.746s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__struct.h
+[7.746s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.h
+[7.746s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.h
+[7.747s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__functions.c
+[7.747s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg
+[7.747s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_generator_c__visibility_control.h
+[7.747s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so
+[7.747s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so" to ""
+[7.748s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.748s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.748s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/dds_fastrtps
+[7.748s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[7.748s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg
+[7.748s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.749s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[7.749s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.749s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.749s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.749s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__traits.hpp
+[7.749s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__struct.hpp
+[7.750s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci.hpp
+[7.750s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.750s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.750s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_introspection_c.h
+[7.750s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.c
+[7.750s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg
+[7.751s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.751s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so
+[7.751s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so" to ""
+[7.751s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials
+[7.751s] -- Up-to-date: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action
+[7.751s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.cpp
+[7.751s] -- Installing: /home/toro/tester_ws/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[7.751s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so
+[7.752s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so" to ""
+[7.752s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.sh
+[7.752s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/pythonpath.dsv
+[7.752s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/__init__.py
+[7.814s] Compiling '/home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/__init__.py'...
+[7.819s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action
+[7.819s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/_fibonacci.py
+[7.819s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/__init__.py
+[7.819s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/_fibonacci_s.c
+[7.819s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[7.820s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[7.820s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[7.821s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[7.821s] -- Installing: /home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__python.so
+[7.821s] -- Set runtime path of "/home/toro/tester_ws/install/action_tutorials/lib/libaction_tutorials__python.so" to ""
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.idl
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/action/Fibonacci.action
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh
+[7.822s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.dsv
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/path.sh
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/environment/path.dsv
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/local_setup.bash
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/local_setup.sh
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/local_setup.zsh
+[7.823s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/local_setup.dsv
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/package.dsv
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake-extras.cmake
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[7.824s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.825s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake
+[7.825s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake
+[7.825s] -- Installing: /home/toro/tester_ws/install/action_tutorials/share/action_tutorials/package.xml
+[7.828s] Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/toro/tester_ws/build/action_tutorials --target install -- -j8 -l8

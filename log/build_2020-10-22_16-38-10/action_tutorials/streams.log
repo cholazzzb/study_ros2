@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/toro/tester_ws/build/action_tutorials': /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[0.037s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.038s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.038s]   has asked CMake to find a package configuration file provided by
+[0.038s]   "ament_cmake", but CMake did not find one.
+[0.038s] 
+[0.038s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.038s]   any of the following names:
+[0.038s] 
+[0.039s]     ament_cmakeConfig.cmake
+[0.039s]     ament_cmake-config.cmake
+[0.040s] 
+[0.041s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.041s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.041s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.042s]   has been installed.
+[0.042s] 
+[0.042s] 
+[0.043s] -- Configuring incomplete, errors occurred!
+[0.044s] See also "/home/toro/tester_ws/build/action_tutorials/CMakeFiles/CMakeOutput.log".
+[0.044s] Invoked command in '/home/toro/tester_ws/build/action_tutorials' returned '1': /usr/bin/cmake /home/toro/tester_ws/src/action_tutorials -DCMAKE_INSTALL_PREFIX=/home/toro/tester_ws/install/action_tutorials
+[0.060s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/toro/tester_ws/build/action_tutorials', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+
